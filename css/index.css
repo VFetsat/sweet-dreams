@@ -144,6 +144,31 @@ h2:after {
   left: 10px;
   margin-right: -50%;
 }
-.products {
-    display: block;
+.products div {
+    float: left;
+    margin-left:15px; 
+    text-align:center;
+    
+}
+
+div div img {
+    width: 400px;
+    height: auto;
+    
+}
+ div div a:hover {
+     color:#727070;
+ }
+.disc {
+    width: 400px;
+    float: left;
+    margin: 15px;
+    background-color: #f4f2ef; 
+}
+section h3 span {
+ float: right;
+}
+section h3 a:hover {
+    color: #ec1559;
+    
 }
