@@ -144,3 +144,6 @@ h2:after {
   left: 10px;
   margin-right: -50%;
 }
+.products {
+    display: block;
+}
