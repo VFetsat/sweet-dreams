@@ -1,0 +1,91 @@
+header div img {
+    float: left;
+    width: 400px;
+    height: auto;
+    margin: 35px;
+}
+.flag {
+    float: left;
+    width:35px;
+    margin: 0;
+}
+body {
+    background-image: url("/img/fon2.png");
+    background-repeat: round no-repeat;
+    background-attachment: scroll;
+    max-width: 1340px;
+    margin:0 auto;
+}
+aside {
+    width: 610px;
+    float: right;
+    
+}
+
+
+#navicon li {
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    word-spacing: 3px;
+    padding: 10px;
+    font-size: 0.9em;
+    font-family: 'Pacifico', cursive;
+    
+}
+#navicon a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+#menu {
+    width: 1340px;
+    margin:20px;
+    clear: both;
+}
+#menu li {
+    float: left;
+    list-style:none;
+    text-align:center;
+    font-size:1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: auto;
+}
+#menu li a {
+    text-decoration:none;
+    display:block;
+    background:#f4f2ef;
+    color:#000000;
+}
+#menu li a:hover {
+    color:#ec1559;
+}
+#menu ul li ul a:hover {
+color:#6E6E6E;
+}
+
+#menu ul {
+    font:25px;
+    font-family: 'Grand Hotel', cursive;
+    
+}
+    
+#menu ul ul{
+    display: none;
+    width: 500px;
+    
+}
+#menu ul li:hover > ul{
+    display:block;
+    font-size: 100%
+}
+#menu ul li li{
+    font-size: 0.8em;
+    font-weight: bold;
+}
+ .navmenu {
+ width: auto;
+ padding: 10px;
+ }
