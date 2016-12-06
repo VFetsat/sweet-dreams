@@ -144,31 +144,41 @@ h2:after {
   left: 10px;
   margin-right: -50%;
 }
-.products div {
-    float: left;
-    margin-left:15px; 
-    text-align:center;
-    
+img {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    border: none;
 }
-
-div div img {
-    width: 400px;
+.main {
+margin: 20px;
+padding: 20px;
+border: 1px solid #ccc;
+background: #fff;
+border-radius: 3px;
+}
+.bl {
+    margin: 20px;
+padding: 5px 10px;
+border: 1px solid #ddd;
+background: #fffde1;
+border-radius: 3px;
+}
+.main {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+    flex-flow: row wrap;
+}
+.bl {
+flex: 1 1 200px;
+text-align: center;
+}
+.imag {
+    width: 100%;
     height: auto;
-    
-}
- div div a:hover {
-     color:#727070;
- }
-.disc {
-    width: 400px;
-    float: left;
-    margin: 15px;
-    background-color: #f4f2ef; 
-}
-section h3 span {
- float: right;
-}
-section h3 a:hover {
-    color: #ec1559;
     
 }
