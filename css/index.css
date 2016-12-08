@@ -7,8 +7,6 @@
 }
 
 #emblema a img {
-    margin-right: : 50px;
-    width: 430px;
     height: auto;
 }
 
@@ -78,7 +76,7 @@ h4:hover {
 }
 
 body {
-    background-image: url("/img/fon1111.jpg");
+    background-image: url("/img/fon.png");
     background-size: 100%;
     background-repeat: round no-repeat;
     background-attachment: scroll;
