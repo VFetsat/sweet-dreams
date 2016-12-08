@@ -1,174 +1,169 @@
-header div img {
-    float: left;
-    width: 400px;
+.navicon {
+    margin: 22px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    max-width: 1300px;
+}
+
+#emblema a img {
     height: auto;
-    margin: 35px;
 }
-.flag {
+
+@keyframes bounce {
+    0%,
+    20%,
+    60%,
+    100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    80% {
+        transform: translateY(-5px);
+    }
+}
+
+.icon2:hover {
+    animation: bounce 1.2s;
+}
+
+.icon3:hover {
+    animation: bounce 1.2s;
+}
+
+.icon4:hover {
+    animation: bounce 1.2s;
+}
+
+.icon5:hover {
+    animation: bounce 1.2s;
+}
+
+.icon6:hover {
+    animation: bounce 1.2s;
+}
+
+.icon2,
+.icon3,
+.icon4,
+.icon5,
+.icon6 {
+    margin: 20px;
+    text-align: center;
+    display: inline-flex;
+}
+
+.icon1 {
     float: left;
-    width:35px;
-    margin: 0;
 }
-body {
-    background-image: url("/img/fon2.png");
-    background-repeat: round no-repeat;
-    background-attachment: scroll;
-    max-width: 1340px;
-    margin:0 auto;
+.ico2 {
+    margin-left: 50px;
 }
-aside {
-    width: 610px;
-    float: right;
-    
-}
-#navicon li {
-    display: inline-block;
-    position: relative;
-    top: 50px;
-    word-spacing: 3px;
-    padding: 10px;
-    font-size: 0.9em;
-    font-family: 'Pacifico', cursive;
-}
-#navicon a {
-    text-decoration: none;
-    color: black;
-}
+
 a {
     text-decoration: none;
 }
 
-.menu  ul ul {
-    display: none;
-}
-.menu ul li:hover > ul {
-     display: block;
-     width: 100%;
-    
-}
-.menu ul {
-	background: #f4f2ef; 
-	margin-left: 35px;
-	color: #000000;
-	list-style: none;
-	position: relative;
-	display: inline-table;
-	font-family: 'Gloria Hallelujah', cursive;
-	text-transform: uppercase;
-}
-.menu ul a:hover{
-    color: #000000;
+h4 {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    font-family: 'Pacifico', cursive;
+    color: #aba69f;
 }
 
-nav ul li {
-    float: left;
+h4:hover {
+    color: #dda044;
 }
 
-.menu ul li:hover a {
-				color: #000000;
+body {
+    background-image: url("/img/fon.png");
+    background-size: 100%;
+    background-repeat: round no-repeat;
+    background-attachment: scroll;
+    max-width: 1340px;
+    margin: auto;
 }
-.menu ul li a {
-			display: block;
-			color: #000000;
-			text-decoration: none;
-			padding: 12px;
-           margin: 5px;
-           
-}
-.menu ul li a:hover {
-    color: #ec1559;
-}
-.menu ul ul {
-    float: left;
-		background: #f4f2ef;
-		position: absolute;
-	}
-.menu ul ul li {
-			float: none; 
-			position: relative;
-			width: 100%;
-}
-.menu ul ul li a {
-				padding: 0px;
-				color: #000000;
-}	
-.menu ul ul li a:hover {
-					color: #727070;
-}
-nav div {
-        float: right;
-}
-#menu {
-    width: 100%;
-}
-ul {
+
+#menu ul {
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    align-items: stretch;
+   
 }
-.menu ul li ul {
-      position:absolute;
-    float: left; 
-        width: 100%;
-}
-.fotogalery img{
-    width: 95%;
+#menu {
+    text-decoration: none;
     margin-left: 35px;
-    max-width: 100%;
-    height: 500px;
+    text-align: justify;
 }
-h2 {
-  overflow: hidden;
-  position: relative;
-  margin: 30px;
+#pilow {
+    width: 195px;
+}
+.punt {
+    width: 140px;
+}
+#punt {
+    width: 80px;
+}
+.menu li {
+  font-family: 'Pacifico', cursive;
+  text-transform: uppercase;
+  
+  background: #a39e92;
+  cursor: pointer;
+  transition: all 0.2s;
+  height: 40px;
+  line-height: 40px;
+ display: inline-block;
+  list-style-type: none;
   text-align: center;
-  white-space: nowrap;
-  font-family: 'Gloria Hallelujah', cursive;
-  color: #716558;
-}
-h2:before,
-h2:after {
-  content: '';
-  display: inline-block;
   position: relative;
-  top: -1px;
-  width: 50%;
-  height: 1px;
-  vertical-align: middle;
-  background: #716558;
 }
-h2:before {
-  left: -10px;
-  margin-left: -50%;
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    height: 40px;
+    text-align: center;
+    font-size: 1em;
 }
-h2:after {
-  left: 10px;
-  margin-right: -50%;
+   
+
+   
+.menu li:hover {
+  background: #b5b1a7;
+  color: #f4119b;
 }
-.products div {
+.menu li a:hover {
+    color: white;
+}
+.menu li ul li {
+    display: none;
+}
+.menu li ul li a {
     float: left;
-    margin-left:15px; 
-    text-align:center;
-    
+    font-size: 0.75em;
+    text-transform: capitalize;
+}
+.menu li ul li a {
+    display: block;
+}
+.menu li:hover ul li {
+    display: block;
 }
 
-div div img {
-    width: 400px;
-    height: auto;
-    
+
+.retmenu {
+    margin-left: 35px;
+        color: #d7d2cd;
+    text-decoration: none;
+    text-transform: uppercase;
 }
- div div a:hover {
-     color:#727070;
- }
-.disc {
-    width: 400px;
-    float: left;
-    margin: 15px;
-    background-color: #f4f2ef; 
-}
-section h3 span {
- float: right;
-}
-section h3 a:hover {
-    color: #ec1559;
-    
+.retmenu a {
+    color: #d7d2cd;
+    font-size: .929em;
+    font-family: 'Gloria Hallelujah', cursive;
 }

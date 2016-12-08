@@ -58,6 +58,9 @@
 .icon1 {
     float: left;
 }
+.ico2 {
+    margin-left: 50px;
+}
 
 a {
     text-decoration: none;
@@ -76,7 +79,7 @@ h4:hover {
 }
 
 body {
-    background-image: url("/img/fon.png");
+    background-image: url("/img/14.png");
     background-size: 100%;
     background-repeat: round no-repeat;
     background-attachment: scroll;
@@ -84,15 +87,11 @@ body {
     margin: auto;
 }
 
-aside {
-    width: 610px;
-    float: right;
-}
-
 .menu ul ul {
     display: none;
     background-size: 100%;
     margin: 0;
+    
 }
 
 .menu ul li:hover>ul {
@@ -101,20 +100,35 @@ aside {
 }
 
 .menu ul {
-    background: #f4f2ef;
+    background: #a39e92;
     width: 100%;
-    margin-left: 35px;
-    max-width: 1275px;
+    margin: 0;
+    padding: 0;
     color: #000000;
     list-style: none;
     position: relative;
     display: inline-table;
     font-family: 'Gloria Hallelujah', cursive;
     text-transform: uppercase;
+    align-items: stretch;
 }
+.navmenu {
+  text-transform: uppercase;
+  background: #a39e92;
+  cursor: pointer;
+  transition: all 0.2s;
+  height: 40px;
+  line-height: 40px;
+ display: inline-block;
+  list-style-type: none;
+  text-align: center;
+  position: relative;
+}
+
 
 .menu ul a:hover {
     color: #000000;
+    
 }
 
 nav ul li {
@@ -126,11 +140,15 @@ nav ul li {
 }
 
 .menu ul li a {
-    display: block;
+   
     color: #000000;
     text-decoration: none;
-    padding: 12px;
+    
     margin: 5px;
+    
+    display: inline-block;
+    height: 40px;
+    text-align: center;
 }
 
 .menu ul li a:hover {
@@ -143,6 +161,7 @@ nav ul li {
     position: absolute;
     background-size: 100%;
     margin: 0;
+    
 }
 
 .menu ul ul li {
@@ -150,6 +169,7 @@ nav ul li {
     position: relative;
     width: 100%;
     background-size: 100%;
+    
 }
 
 .menu ul ul li a {
@@ -161,26 +181,13 @@ nav ul li {
     color: #727070;
 }
 
-#menu {
-    width: 100%;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-}
-
 .menu ul li ul {
-    position: absolute;
+   
     float: left;
     width: 100%;
     font-size: 1em;
     font-weight: bold;
     text-transform: lowercase;
-}
-
-.navmenu ul li {
-    background-size: 100%;
 }
 
 .fotogalery img {
