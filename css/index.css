@@ -154,9 +154,8 @@ font-family: 'Gloria Hallelujah', cursive;
 	background-color: transparent;
 	color: #302f2b;
 }
-/* Стили Фотогалереи */
 .gallery {
-    margin: 100px auto 0;
+    margin: 100px auto 100px;
     width: 800px;
 }
 .gallery a {
@@ -164,16 +163,10 @@ font-family: 'Gloria Hallelujah', cursive;
     height: 135px;
     position: relative;
     width: 180px;
- 
-    /* Предотвращение  выбора */
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    user-select: none;
 }
 .gallery a img {
-    border: 8px solid #fff;
-    border-bottom: 20px solid #fff;
+    border: 8px solid #FFE4B5;
+    border-bottom: 20px solid #8FBC8F;
     cursor: pointer;
     display: block;
     height: 100%;
@@ -184,83 +177,44 @@ font-family: 'Gloria Hallelujah', cursive;
     z-index: 1;
  
     /* CSS3 Свойство калибровки поля  */
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -o-box-sizing: border-box;
     box-sizing: border-box;
- 
-    /* CSS3 правила перехода */
-    -webkit-transition: all 1.0s ease;
-    -moz-transition: all 1.0s ease;
-    -o-transition: all 1.0s ease;
-    transition: all 1.0s ease;
- 
-    /* CSS3 Тень поля */
-    -moz-box-shadow: 2px 2px 4px #444;
-    -webkit-box-shadow: 2px 2px 4px #444;
-    -o-box-shadow: 2px 2px 4px #444;
-    box-shadow: 2px 2px 4px #444;
+    transition: all 0.7s ease;
+
 }
- 
-/* Пользовательские CSS3 вращение преобразование */
 .gallery a:nth-child(1) img {
-    -moz-transform: rotate(-25deg);
-    -webkit-transform: rotate(-25deg);
     transform: rotate(-25deg);
 }
 .gallery a:nth-child(2) img {
-    -moz-transform: rotate(-20deg);
-    -webkit-transform: rotate(-20deg);
     transform: rotate(-20deg);
 }
 .gallery a:nth-child(3) img {
-    -moz-transform: rotate(-15deg);
-    -webkit-transform: rotate(-15deg);
     transform: rotate(-15deg);
 }
 .gallery a:nth-child(4) img {
-    -moz-transform: rotate(-10deg);
-    -webkit-transform: rotate(-10deg);
     transform: rotate(-10deg);
 }
 .gallery a:nth-child(5) img {
-    -moz-transform: rotate(-5deg);
-    -webkit-transform: rotate(-5deg);
     transform: rotate(-5deg);
 }
 .gallery a:nth-child(6) img {
-    -moz-transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
 }
 .gallery a:nth-child(7) img {
-    -moz-transform: rotate(5deg);
-    -webkit-transform: rotate(5deg);
     transform: rotate(5deg);
 }
 .gallery a:nth-child(8) img {
-    -moz-transform: rotate(10deg);
-    -webkit-transform: rotate(10deg);
     transform: rotate(10deg);
 }
 .gallery a:nth-child(9) img {
-    -moz-transform: rotate(15deg);
-    -webkit-transform: rotate(15deg);
     transform: rotate(15deg);
 }
 .gallery a:nth-child(10) img {
-    -moz-transform: rotate(20deg);
-    -webkit-transform: rotate(20deg);
     transform: rotate(20deg);
 }
 .gallery a:nth-child(11) img {
-    -moz-transform: rotate(25deg);
-    -webkit-transform: rotate(25deg);
     transform: rotate(25deg);
 }
 .gallery a:nth-child(12) img {
-    -moz-transform: rotate(30deg);
-    -webkit-transform: rotate(30deg);
     transform: rotate(30deg);
 }
  
@@ -272,27 +226,9 @@ font-family: 'Gloria Hallelujah', cursive;
     position: absolute;
     width: 250%;
     z-index: 25;
- 
-    /* CSS3 правила перехода */
-    -webkit-transition: all 1.0s ease;
-    -moz-transition: all 1.0s ease;
-    -o-transition: all 1.0s ease;
     transition: all 1.0s ease;
- 
-    /* CSS3 преобразуйем правила */
-    -moz-transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
     transform: rotate(0deg);
 }
-.fotogalery img {
-    width: 95%;
-    margin-left: 35px;
-    max-width: 100%;
-    height: 500px;
-    border-radius: 8px;
-}
-
 h2 {
     overflow: hidden;
     position: relative;
@@ -359,7 +295,10 @@ h2:after {
 .image img {
     width: 354px;
     height: 265.5px;
+    
 }
+ .big {cursor: pointer; max-width: 420px;}
+ .big:hover {max-width: none;}
 
 h3 {
     margin-top: 0;
