@@ -76,7 +76,7 @@ h4 {
 }
 
 h4:hover {
-    color: #dda044;
+    color: #2a2a2a;
 }
 
 body {
@@ -88,24 +88,203 @@ body {
     margin: auto;
 }
 
-#menu {
-    float: left
+.menu {
+	background-color: #a39e92;
+    background-repeat: no-repeat;
+   	border-radius: 4px;
+	width: 1300px;
+    height: 41px;
 }
 
-#menu ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+.menu>li {
+	float: left;
+	list-style: none;
+	border-right: 1px solid #fff;
+	position: relative;
 }
 
-#menu ul li {
-    
-    float: left;
-    width: 120px;
-    line-height: 30px;
-    height: 30px;
+.menu>li>a {
+	color: white;
+	display: block;
+	padding: 8px 20px 10px;
+	text-decoration: none;
+	border-right: 1px solid #a39e92;
+	text-transform: uppercase;
+	font-size: 1em;
+font-family: 'Gloria Hallelujah', cursive;
 }
 
+.menu>li>a:hover {
+	background-color: #a39e92;
+}
+
+.menu>li:first-child>a:hover {
+	border-radius: 4px 0 0 4px;
+}
+
+.menu>li>ul {
+	display: none;
+}
+
+.menu>li:hover>ul {
+	display: block;
+	position: absolute;
+	top: 41px;
+	border-radius: 0 0 4px 4px;
+	background-color: #aca79c;
+	z-index: 1000;
+}
+
+.menu>li:hover>ul>li {
+	float: none;
+	width: 150px;
+	list-style: none;
+}
+
+.menu>li:hover>ul>li>a {
+	border-top: 1px solid #fff;
+	padding: 6px 20px 8px;
+	display: block;
+	color: white;
+	text-decoration: none;
+	font-size: larger;
+}
+
+.menu>li:hover>ul>li>a:hover {
+	background-color: transparent;
+	color: #302f2b;
+}
+/* Стили Фотогалереи */
+.gallery {
+    margin: 100px auto 0;
+    width: 800px;
+}
+.gallery a {
+    display: inline-block;
+    height: 135px;
+    position: relative;
+    width: 180px;
+ 
+    /* Предотвращение  выбора */
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+.gallery a img {
+    border: 8px solid #fff;
+    border-bottom: 20px solid #fff;
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+ 
+    /* CSS3 Свойство калибровки поля  */
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+ 
+    /* CSS3 правила перехода */
+    -webkit-transition: all 1.0s ease;
+    -moz-transition: all 1.0s ease;
+    -o-transition: all 1.0s ease;
+    transition: all 1.0s ease;
+ 
+    /* CSS3 Тень поля */
+    -moz-box-shadow: 2px 2px 4px #444;
+    -webkit-box-shadow: 2px 2px 4px #444;
+    -o-box-shadow: 2px 2px 4px #444;
+    box-shadow: 2px 2px 4px #444;
+}
+ 
+/* Пользовательские CSS3 вращение преобразование */
+.gallery a:nth-child(1) img {
+    -moz-transform: rotate(-25deg);
+    -webkit-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+}
+.gallery a:nth-child(2) img {
+    -moz-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+.gallery a:nth-child(3) img {
+    -moz-transform: rotate(-15deg);
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+}
+.gallery a:nth-child(4) img {
+    -moz-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+.gallery a:nth-child(5) img {
+    -moz-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+.gallery a:nth-child(6) img {
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.gallery a:nth-child(7) img {
+    -moz-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+}
+.gallery a:nth-child(8) img {
+    -moz-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+}
+.gallery a:nth-child(9) img {
+    -moz-transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+.gallery a:nth-child(10) img {
+    -moz-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+.gallery a:nth-child(11) img {
+    -moz-transform: rotate(25deg);
+    -webkit-transform: rotate(25deg);
+    transform: rotate(25deg);
+}
+.gallery a:nth-child(12) img {
+    -moz-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+ 
+.gallery a:focus img {
+    cursor: default;
+    height: 250%;
+    left: -150px;
+    top: -100px;
+    position: absolute;
+    width: 250%;
+    z-index: 25;
+ 
+    /* CSS3 правила перехода */
+    -webkit-transition: all 1.0s ease;
+    -moz-transition: all 1.0s ease;
+    -o-transition: all 1.0s ease;
+    transition: all 1.0s ease;
+ 
+    /* CSS3 преобразуйем правила */
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
 .fotogalery img {
     width: 95%;
     margin-left: 35px;
@@ -121,7 +300,7 @@ h2 {
     text-align: center;
     white-space: nowrap;
     font-family: 'Gloria Hallelujah', cursive;
-    color: #716558;
+    color: #a39e92;
 }
 
 h2:before,
@@ -164,6 +343,7 @@ h2:after {
     display: flex;
     flex-flow: row wrap;
     max-width: 1250px;
+    height: 880px;
     justify-content: center;
     align-items: stretch;
     align-content: stretch;
@@ -178,22 +358,43 @@ h2:after {
 
 .image img {
     width: 354px;
-    height: auto;
+    height: 265.5px;
 }
 
 h3 {
-    color: #716558;
+    margin-top: 0;
+    padding-top: 5px;
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .text {
-    margin-top: 10px;
+    
     width: 100%;
     position: relative;
-    background: #f4f2ef;
-    border-bottom: 10px solid #f4f2ef;
+    background: #a39e92;
+    border-bottom: 10px solid #a39e92;
+}
+.text a {
+    color: #e1e033;
+    font-family: 'Pacifico', cursive;
+}
+
+.text a h3:hover {
+    color: #e1e033;
+}
+.text a p {
+    color: #000;
+    font-size: 15px;
+    margin: 5px;
 }
 
 .footer {
+    margin-top: 60px;
+    margin-bottom: 100px;
     width: 1340px;
     position: relative;
     background: #cdc3b8;
