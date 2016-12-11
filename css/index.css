@@ -154,11 +154,7 @@ font-family: 'Gloria Hallelujah', cursive;
 	background-color: transparent;
 	color: #302f2b;
 }
-
-.mySlides {display:none}
-.w3-left, .w3-right, .w3-badge {cursor:pointer}
-.w3-badge {height:13px;width:13px;padding:0}
-
+.mySlides {display:none;}
 h2 {
     overflow: hidden;
     position: relative;
