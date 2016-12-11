@@ -154,81 +154,11 @@ font-family: 'Gloria Hallelujah', cursive;
 	background-color: transparent;
 	color: #302f2b;
 }
-.gallery {
-    margin: 100px auto 100px;
-    width: 800px;
-}
-.gallery a {
-    display: inline-block;
-    height: 135px;
-    position: relative;
-    width: 180px;
-}
-.gallery a img {
-    border: 8px solid #FFE4B5;
-    border-bottom: 20px solid #8FBC8F;
-    cursor: pointer;
-    display: block;
-    height: 100%;
-    left: 0px;
-    position: absolute;
-    top: 0px;
-    width: 100%;
-    z-index: 1;
- 
-    /* CSS3 Свойство калибровки поля  */
-    box-sizing: border-box;
-    transition: all 0.7s ease;
 
-}
-.gallery a:nth-child(1) img {
-    transform: rotate(-25deg);
-}
-.gallery a:nth-child(2) img {
-    transform: rotate(-20deg);
-}
-.gallery a:nth-child(3) img {
-    transform: rotate(-15deg);
-}
-.gallery a:nth-child(4) img {
-    transform: rotate(-10deg);
-}
-.gallery a:nth-child(5) img {
-    transform: rotate(-5deg);
-}
-.gallery a:nth-child(6) img {
-    transform: rotate(0deg);
-}
-.gallery a:nth-child(7) img {
-    transform: rotate(5deg);
-}
-.gallery a:nth-child(8) img {
-    transform: rotate(10deg);
-}
-.gallery a:nth-child(9) img {
-    transform: rotate(15deg);
-}
-.gallery a:nth-child(10) img {
-    transform: rotate(20deg);
-}
-.gallery a:nth-child(11) img {
-    transform: rotate(25deg);
-}
-.gallery a:nth-child(12) img {
-    transform: rotate(30deg);
-}
- 
-.gallery a:focus img {
-    cursor: default;
-    height: 250%;
-    left: -150px;
-    top: -100px;
-    position: absolute;
-    width: 250%;
-    z-index: 25;
-    transition: all 1.0s ease;
-    transform: rotate(0deg);
-}
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
 h2 {
     overflow: hidden;
     position: relative;
@@ -297,9 +227,9 @@ h2:after {
     height: 265.5px;
     
 }
- .big {cursor: pointer; max-width: 420px;}
- .big:hover {max-width: none;}
-
+.blok1 {position: relative; cursor:pointer; display: inline-block;}
+.blok1 img + img {position:absolute; left: 0; top:0; z-index:100; display: none;}
+.blok1:hover img + img {display: block;}
 h3 {
     margin-top: 0;
     padding-top: 5px;
