@@ -166,33 +166,6 @@ font-family: 'Gloria Hallelujah', cursive;
     font-size: 0.929em;
     font-family: 'Gloria Hallelujah', cursive;
 }
-.contacts div h2 {
-    background-color: #b5b1a7;
-   	border-radius: 4px;
-	width: 1340px;
-	height: 100px;
-    text-align: center;
-    color: #fff;
-	text-transform: uppercase;
-    font-family: 'Marck Script', cursive;
-    font-size: 2em;
-    display: block;
-    line-height: 100px;
-}
-.contact h3 {
-    text-transform: uppercase;
-    font-size: 1em;
-    font-family: 'Pacifico', cursive;
-    color: #aba69f;
-}
-.contact p {
-    font-size: 1.1em;
-    font-family: 'Pacifico', cursive;
-}
-.contact {
-    float: left;
-}
-
 .footer {
     margin-top: 60px;
     margin-bottom: 50px;
@@ -230,4 +203,71 @@ font-family: 'Gloria Hallelujah', cursive;
     text-transform: inherit;
     font-size: 1em;
     
+}
+.pillows div h2 {
+    background-color: #b5b1a7;
+   	border-radius: 4px;
+	width:1000px;
+	height: 100px;
+    text-align: center;
+    color: #fff;
+	text-transform: uppercase;
+    font-family: 'Marck Script', cursive;
+    font-size: 1.7em;
+    display: block;
+    line-height: 100px;
+    float: right;
+}
+.main {
+    clear: both;
+    display: block;
+    width: 1000px;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    float: right;
+}
+
+.bl {
+    float: right;
+    flex: 1 1 200px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.image img {
+    width: 250px;
+    height: 250px;
+    margin: 40px 40px 0 40px;
+}
+h3 {
+    margin-top: 0;
+    padding-top: 5px;
+    color: #a39e92;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.text {
+    
+    width: 100%;
+    position: relative;
+    border-bottom: 10px solid #fff;
+}
+.text a {
+    color: #ec1459;
+    font-family: 'Pacifico', cursive;
+}
+
+.text a h3:hover {
+    color: #ec1459;
+}
+.text a p {
+    color: #000;
+    font-size: 15px;
+    margin: 5px;
 }

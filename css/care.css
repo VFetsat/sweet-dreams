@@ -58,7 +58,6 @@
 .icon1 {
     float: left;
 }
-
 .ico2 {
     margin-left: 50px;
 }
@@ -76,7 +75,7 @@ h4 {
 }
 
 h4:hover {
-    color: #2a2a2a;
+    color: #dda044;
 }
 
 body {
@@ -87,6 +86,7 @@ body {
     max-width: 1340px;
     margin: auto;
 }
+
 
 .menu {
 	background-color: #a39e92;
@@ -154,116 +154,40 @@ font-family: 'Gloria Hallelujah', cursive;
 	background-color: transparent;
 	color: #302f2b;
 }
-h2 {
-    overflow: hidden;
-    position: relative;
-    margin: 50px;
-    text-align: center;
-    white-space: nowrap;
-    font-family: 'Gloria Hallelujah', cursive;
-    color: #a39e92;
-}
 
-h2:before,
-h2:after {
-    content: '';
-    display: inline-block;
-    position: relative;
-    top: -1px;
-    width: 50%;
-    height: 1px;
-    vertical-align: middle;
-    background: #716558;
-}
-
-h2:before {
-    left: -10px;
-    margin-left: -50%;
-}
-
-h2:after {
-    left: 10px;
-    margin-right: -50%;
-}
-
-.main {
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    background: #fff;
-    border-radius: 3px;
-}
-
-.bl {
-    margin: 20px;
-    padding: 5px 10px;
-    border-radius: 3px;
-}
-
-.main {
-    display: flex;
-    flex-flow: row wrap;
-    max-width: 1250px;
-    height: 880px;
-    justify-content: center;
-    align-items: stretch;
-    align-content: stretch;
-    margin: auto;
-    flex-direction: row;
-}
-
-.bl {
-    flex: 1 1 200px;
-    text-align: center;
-}
-
-.image img {
-    width: 354px;
-    height: 265.5px;
-    
-}
-h3 {
-    margin-top: 0;
-    padding-top: 5px;
-    color: #fff;
-    font-family: 'Pacifico', cursive;
-    letter-spacing: 0.1em;
+.retmenu {
+    margin-left: 35px;
+        color: #d7d2cd;
+    text-decoration: none;
     text-transform: uppercase;
-    margin-bottom: 10px;
 }
-
-.text {
-    
-    width: 100%;
-    position: relative;
-    background: #a39e92;
-    border-bottom: 10px solid #a39e92;
+.retmenu a {
+    color: #d7d2cd;
+    font-size: 0.929em;
+    font-family: 'Gloria Hallelujah', cursive;
 }
-.text a {
-    color: #e1e033;
+.care div h2 {
+    background-color: #b5b1a7;
+   	border-radius: 4px;
+	width: 1340px;
+	height: 100px;
+    text-align: center;
+    color: #fff;
+	text-transform: uppercase;
+    font-family: 'Marck Script', cursive;
+    font-size: 2em;
+    display: block;
+    line-height: 100px;
+}
+section div h3 {
+    text-transform: uppercase;
+    font-size: 1em;
     font-family: 'Pacifico', cursive;
+    color: #aba69f;
 }
-
-.text a h3:hover {
-    color: #e1e033;
-}
-.text a p {
-    color: #000;
-    font-size: 15px;
-    margin: 5px;
-}
-.slider img {
-    display: inline-block;
-    width: 300px;
-    height: 300px;
-}
-.slider {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: stretch;
-    align-content: stretch;
-    margin-top: 50px;
+section div p {
+    font-size: 1.1em;
+    font-family: 'Pacifico', cursive;
 }
 .footer {
     margin-top: 60px;
@@ -303,3 +227,4 @@ h3 {
     font-size: 1em;
     
 }
+
