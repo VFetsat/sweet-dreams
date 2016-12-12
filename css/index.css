@@ -240,12 +240,12 @@ h3 {
     border-bottom: 10px solid #a39e92;
 }
 .text a {
-    color: #e1e033;
+    color: #fff;
     font-family: 'Pacifico', cursive;
 }
 
 .text a h3:hover {
-    color: #e1e033;
+    color: #ec1559;
 }
 .text a p {
     color: #000;
@@ -288,6 +288,9 @@ h3 {
     width: 30px;
     height: 30px;
 }
+.logostamp {
+ width: 100%;
+}
 .logostamp img {
     float: right;
     align-items: center;
@@ -301,5 +304,4 @@ h3 {
     font-family: 'Pacifico', cursive;
     text-transform: inherit;
     font-size: 1em;
-    
 }
