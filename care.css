@@ -192,16 +192,6 @@ font-family: 'Gloria Hallelujah', cursive;
 .contact {
     float: left;
 }
-.form form fieldset {
-    width: 600px;
-    height: 450px;
-    border-color: #a39e92;
-    font-family: 'Pacifico', cursive;
-}
-.form {
-    float: right;
-    margin-bottom: 100px;
-}
 
 .footer {
     margin-top: 60px;

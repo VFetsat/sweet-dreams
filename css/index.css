@@ -255,16 +255,6 @@ h3 {
     font-size: 15px;
     margin: 5px;
 }
-
-.footer {
-    margin-top: 60px;
-    margin-bottom: 100px;
-    width: 1340px;
-    position: relative;
-    background: #cdc3b8;
-    padding: 12px 0;
-    border-bottom: 10px;
-}
 .slider img {
     display: inline-block;
     width: 300px;
@@ -277,4 +267,29 @@ h3 {
     align-items: stretch;
     align-content: stretch;
     margin-top: 50px;
+}
+
+.footer {
+    margin-top: 60px;
+    margin-bottom: 150px;
+    width: 1340px;
+    position: relative;
+    background: #cdc3b8;
+    padding: 12px 0;
+    border-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.footer a {
+    text-transform: uppercase;
+    text-align: center;
+    color:  #fff;
+    font-family: 'Pacifico', cursive;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+footer a img {
+    width: 30px;
+    height: 30px;
 }
