@@ -80,7 +80,7 @@ h4:hover {
 }
 
 body {
-    background-image: url("/img/fon.png");
+    background-image: url("img/fon.png");
     background-size: 100%;
     background-repeat: round no-repeat;
     background-attachment: scroll;
