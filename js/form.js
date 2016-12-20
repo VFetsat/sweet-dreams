@@ -2,7 +2,7 @@ $(function() {
     $('#submit').click(function(e) {
         e.preventDefault();
         $.ajax({
-            url: "https://formspree.io/volfet@ukr.net",
+            url: "https://formspree.io/sweetdreamsest2015@gmail.com",
             method: "POST",
             data: {
                 name: $('#Імя').val(),
