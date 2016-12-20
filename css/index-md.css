@@ -109,4 +109,12 @@
 #exampleSlider {
     display: none;
 }
+.main {
+    clear: both;
+    flex-basis: 50%;
+}
+h2 {
+    clear: both;
+    width: 100%;
+}
 }
