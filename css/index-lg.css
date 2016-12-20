@@ -10,6 +10,7 @@ header {
         max-width: 1174px;
         height: auto;
         margin: auto;
+        
     }
     .navicon {
         display: flex;
@@ -45,6 +46,8 @@ header {
         width: 90%;
         margin-left: 30px;
         height: 36px;
+        border-left: 5px;
+        border-right: 5px;
     }
     .menu>li>a {
         padding: 8px 5px 10px;
