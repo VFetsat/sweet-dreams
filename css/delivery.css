@@ -58,7 +58,6 @@
 .icon1 {
     float: left;
 }
-
 .ico2 {
     margin-left: 50px;
 }
@@ -88,86 +87,109 @@ body {
     margin: auto;
 }
 
+
 .menu {
-    background-color: #a39e92;
+	background-color: #a39e92;
     background-repeat: no-repeat;
-    border-radius: 4px;
-    width: 97%;
+   	border-radius: 4px;
+	width: 97%;
     height: 41px;
 }
 
 .menu>li {
-    float: left;
-    list-style: none;
-    border-right: 1px solid #fff;
-    position: relative;
+	float: left;
+	list-style: none;
+	border-right: 1px solid #fff;
+	position: relative;
 }
 
 .menu>li>a {
-    color: white;
-    display: block;
-    padding: 8px 12px 10px;
-    text-decoration: none;
-    border-right: 1px solid #a39e92;
-    text-transform: uppercase;
-    font-size: 1em;
-    font-family: 'Gloria Hallelujah', cursive;
+	color: white;
+	display: block;
+	padding: 8px 12px 10px;
+	text-decoration: none;
+	border-right: 1px solid #a39e92;
+	text-transform: uppercase;
+	font-size: 1em;
+font-family: 'Gloria Hallelujah', cursive;
 }
 
 .menu>li>a:hover {
-    background-color: #a39e92;
+	background-color: #a39e92;
 }
 
 .menu>li:first-child>a:hover {
-    border-radius: 4px 0 0 4px;
+	border-radius: 4px 0 0 4px;
 }
 
 .menu>li>ul {
-    display: none;
+	display: none;
 }
 
 .menu>li:hover>ul {
-    display: block;
-    position: absolute;
-    top: 41px;
-    border-radius: 0 0 4px 4px;
-    background-color: #aca79c;
-    z-index: 1000;
+	display: block;
+	position: absolute;
+	top: 41px;
+	border-radius: 0 0 4px 4px;
+	background-color: #aca79c;
+	z-index: 1000;
 }
 
 .menu>li:hover>ul>li {
-    float: none;
-    width: 150px;
-    list-style: none;
+	float: none;
+	width: 150px;
+	list-style: none;
 }
 
 .menu>li:hover>ul>li>a {
-    border-top: 1px solid #fff;
-    padding: 6px 20px 8px;
-    display: block;
-    color: white;
-    text-decoration: none;
-    font-size: larger;
+	border-top: 1px solid #fff;
+	padding: 6px 10px 8px;
+	display: block;
+	color: white;
+	text-decoration: none;
+	font-size: larger;
+	font-family: 'Gloria Hallelujah', cursive;
 }
 
 .menu>li:hover>ul>li>a:hover {
-    background-color: transparent;
-    color: #302f2b;
+	background-color: transparent;
+	color: #302f2b;
 }
 
 .retmenu {
     margin-left: 35px;
-    color: #d7d2cd;
+        color: #d7d2cd;
     text-decoration: none;
     text-transform: uppercase;
 }
-
 .retmenu a {
     color: #d7d2cd;
     font-size: 0.929em;
     font-family: 'Gloria Hallelujah', cursive;
 }
-
+.delivery div h2 {
+    background-color: #b5b1a7;
+   	border-radius: 4px;
+	width: 100%;
+	height: 100px;
+    text-align: center;
+    color: #fff;
+	text-transform: uppercase;
+    font-family: 'Marck Script', cursive;
+    font-size: 2em;
+    display: block;
+    line-height: 100px;
+}
+section div h3 {
+    text-transform: uppercase;
+    font-size: 1em;
+    font-family: 'Pacifico', cursive;
+    color: #aba69f;
+}
+section div p {
+    font-size: 1.1em;
+    font-family: 'Pacifico', cursive;
+}
 .footer {
     margin-top: 60px;
     margin-bottom: 50px;
@@ -179,11 +201,10 @@ body {
     align-items: center;
     border-radius: 4px;
 }
-
 .footer a {
     display: inline-block;
     text-transform: uppercase;
-    color: #fff;
+    color:  #fff;
     font-family: 'Pacifico', cursive;
     margin-left: 30px;
     margin-right: 30px;
@@ -193,7 +214,6 @@ body {
     width: 30px;
     height: 30px;
 }
-
 .logostamp img {
     float: right;
     align-items: center;
@@ -201,82 +221,12 @@ body {
     margin-bottom: 50px;
     margin-left: 170px;
 }
-
 .logostamp p {
     width: 61%;
     margin-left: 70px;
     font-family: 'Pacifico', cursive;
     text-transform: inherit;
     font-size: 1em;
+    
 }
 
-.title div h2 {
-    background-color: #b5b1a7;
-    border-radius: 4px;
-    width: 75%;
-    height: 100px;
-    text-align: center;
-    color: #fff;
-    text-transform: uppercase;
-    font-family: 'Marck Script', cursive;
-    font-size: 1.7em;
-    display: block;
-    line-height: 100px;
-    float: right;
-}
-
-.main {
-    clear: both;
-    display: block;
-    width: 75%;
-    height: auto;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: center;
-    float: right;
-}
-
-.bl {
-    float: right;
-    flex: 1 1 200px;
-    text-align: center;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-}
-
-.image img {
-    width: 250px;
-    height: 250px;
-    margin: 40px 40px 0 40px;
-}
-
-h3 {
-    margin-top: 0;
-    padding-top: 5px;
-    color: #a39e92;
-    font-family: 'Pacifico', cursive;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-}
-
-.text {
-    width: 100%;
-    position: relative;
-    border-bottom: 10px solid #fff;
-}
-
-.text a {
-    color: #ec1459;
-    font-family: 'Pacifico', cursive;
-}
-
-.text a h3:hover {
-    color: #ec1459;
-}
-
-.text a p {
-    color: #000;
-    font-size: 15px;
-    margin: 5px;
-}

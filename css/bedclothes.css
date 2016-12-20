@@ -225,7 +225,7 @@ body {
     float: right;
 }
 
-.main {
+.items {
     clear: both;
     display: block;
     width: 75%;
@@ -234,14 +234,59 @@ body {
     align-items: center;
     align-content: center;
     float: right;
+    
+}
+.item {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.item:hover {
+    background-color: #c3c0b8;
+}
+.main {
+    clear: both;
+    display: flex;
+    width: 75%;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    float: right;
+    margin-top: 20px;
+    
 }
 
 .bl {
-    float: right;
+    float: left;
     flex: 1 1 200px;
     text-align: center;
     border: 1px solid #ccc;
     border-radius: 3px;
+}
+.paginaction {
+    clear: both;
+    margin-top: 20px;
+    
+    
+}
+.paginaction a {
+    padding: 4px 8px;
+    border: 1px solid #a39e92;
+    color: #a39e92;
+    font-family: 'Marck Script', cursive;
+}
+.paginaction a:hover {
+    background-color: #a39e92;
+    border: 1px solid #a39e92;
+    color: #fff;
+    font-family: 'Marck Script', cursive;
+}
+.active {
+    background-color: #d7d7d7;
+    border: 1px solid #d7d7d7;
+    
+    font-family: 'Marck Script', cursive;
 }
 
 .image img {

@@ -3,7 +3,7 @@
     padding: 5px 10px;
     border: 1px solid #ddd;
     border-radius: 3px;
-    max-width: 1300px;
+    max-width: 97%;
 }
 
 #emblema a img {
@@ -79,8 +79,8 @@ h4:hover {
 }
 
 body {
-    background-image: url("/img/fon.png");
-    background-size: 100%;
+    background-image: url("../img/fon.png");
+    background-size: cover;
     background-repeat: round no-repeat;
     background-attachment: scroll;
     max-width: 1340px;
@@ -92,7 +92,7 @@ body {
 	background-color: #a39e92;
     background-repeat: no-repeat;
    	border-radius: 4px;
-	width: 1300px;
+	width: 97%;
     height: 41px;
 }
 
@@ -106,7 +106,7 @@ body {
 .menu>li>a {
 	color: white;
 	display: block;
-	padding: 8px 20px 10px;
+	padding: 8px 12px 10px;
 	text-decoration: none;
 	border-right: 1px solid #a39e92;
 	text-transform: uppercase;
@@ -169,7 +169,7 @@ font-family: 'Gloria Hallelujah', cursive;
 .care div h2 {
     background-color: #b5b1a7;
    	border-radius: 4px;
-	width: 1340px;
+	width: 100%;
 	height: 100px;
     text-align: center;
     color: #fff;
@@ -192,12 +192,13 @@ section div p {
 .footer {
     margin-top: 60px;
     margin-bottom: 50px;
-    width: 1340px;
+    width: 100%;
     background: #cdc3b8;
     padding: 12px 0;
     border-bottom: 10px;
     display: inline-block;
     align-items: center;
+    border-radius: 4px;
 }
 .footer a {
     display: inline-block;
@@ -220,7 +221,7 @@ section div p {
     margin-left: 170px;
 }
 .logostamp p {
-    width: 820px;
+    width: 61%;
     margin-left: 70px;
     font-family: 'Pacifico', cursive;
     text-transform: inherit;

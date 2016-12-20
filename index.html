@@ -3,12 +3,17 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sweet Dreams</title>
-    <link rel="stylesheet" media="(min-width: 1000px)" href="css/index.css">
-    <script type="text/javascript" src="js/index.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" media="(min-width: 992px) and (max-width: 1172px)" href="css/index-lg.css">
+    <link rel="stylesheet" media="(min-width: 700px) and (max-width: 991px)" href="css/index-md.css">
+    <link rel="stylesheet" media="(min-width: 450px) and (max-width: 699px)" href="css/index-sm.css">
+    <link rel="stylesheet" media="(min-width: 300px) and (max-width: 449px)" href="css/index-sm.css">
 </head>
 
 <body>
+    <script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
     <header id="header">
         <div class="navicon">
@@ -48,10 +53,10 @@
                 </a>
             </div>
         </div>
-        <nav id="menu">
+        <nav>
             <ul class="menu">
                 <li>
-                    <a href="">постільна білизна</a>
+                    <a href="bedclothes.html">постільна білизна</a>
                     <ul>
                         <li>
                             <a href="">комплекти постільної білизни</a>
@@ -78,7 +83,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="">комплекти у візочок</a>
+                    <a href="pramset.html">комплекти у візочок</a>
                     <ul>
                         <li>
                             <a href="">пледи</a>
@@ -92,7 +97,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="">ігрові подушки</a>
+                    <a href="plushpillows.html">ігрові подушки</a>
                     <ul>
                         <li>
                             <a href="">зірки</a>
@@ -109,7 +114,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="">конверти</a>
+                    <a href="pram-cover-set.html">конверти</a>
                     <ul>
                         <li>
                             <a href="">конверти-кокони</a>
@@ -120,7 +125,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="">дрібниці</a>
+                    <a href="other-pram-accessories.htm">дрібниці</a>
                     <ul>
                         <li>
                             <a href="">гірлянди</a>
@@ -134,7 +139,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="">коврики</a>
+                    <a href="mats.html">коврики</a>
                     <ul>
                         <li>
                             <a href="">персональні коврики</a>
@@ -145,7 +150,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="">декор</a>
+                    <a href="decor.html">декор</a>
                     <ul>
                         <li>
                             <a href="">скатертини</a>
@@ -167,106 +172,119 @@
             </ul>
         </nav>
     </header>
-    <div class="slider">
-        <img src="img/slide1.jpg" alt="slider">
-        <img src="img/slide2.jpg" alt="slider">
-        <img src="img/slide1.jpg" alt="slider">
-    </div>
+    <ul id="exampleSlider">
+        <li><img src="img/slide1.jpg" alt="slide"></li>
+        <li><img src="img/slide2.jpg" alt="slide"></li>
+        <li><img src="img/slide3.jpg" alt="slide"></li>
+        <li><img src="img/slide2.jpg" alt="slide"></li>
+    </ul>
     <h2>
         комплекти постільної білизни
     </h2>
     <div class="main">
-        <div class="bl fl1">
-            <div class="image">
-                <a href="">
-                    <img src="img/beddingset.jpg" class="big" alt="bedding set">
-                </a>
+        <fieldset>
+            <div class="bl fl1">
+                <div class="image">
+                    <a href="">
+                        <img src="img/beddingset.jpg" class="big" alt="bedding set">
+                    </a>
+                </div>
+                <div class="text">
+                    <a href="beddingset.html">
+                        <h3>кицюня</h3>
+                        <p>Матеріал - 100% бавовна бязь.<br> Гіпоалергенний дихаючий наповнювач</p>
+                        ціна - 1.00 грн
+                    </a>
+                </div>
             </div>
-            <div class="text">
-                <a href="beddingset.html">
-                    <h3>кицюня</h3>
-                    <p>Матеріал - 100% бавовна бязь. Гіпоалергенний дихаючий наповнювач</p>
-                    ціна - 1.00 грн
-                </a>
+        </fieldset>
+        <fieldset>
+            <div class="bl fl2">
+                <div class="image">
+                    <a href="">
+                        <img src="img/beddingsetmimishka.jpg" alt="bedding set">
+                    </a>
+                </div>
+                <div class="text">
+                    <a href="beddingset.html">
+                        <h3>рожеві сни</h3>
+                        <p>Матеріал - 100% бавовна бязь.<br> Гіпоалергенний дихаючий наповнювач</p>
+                        ціна - 0.99 грн
+                    </a>
+                </div>
             </div>
-        </div>
-        <div class="bl fl2">
-            <div class="image">
-                <a href="">
-                    <img src="img/beddingsetmimishka.jpg" alt="bedding set">
-                </a>
+        </fieldset>
+        <fieldset>
+            <div class="bl fl3">
+                <div class="image">
+                    <a href="">
+                        <img src="img/beddingsetzorepad.jpg" alt="bedding set">
+                    </a>
+                </div>
+                <div class="text">
+                    <a href="beddingset.html">
+                        <h3>зорепад</h3>
+                        <p>Матеріал - 100% бавовна бязь.<br> Гіпоалергенний дихаючий наповнювач</p>
+                        ціна - 1,99 грн
+                    </a>
+                </div>
             </div>
-            <div class="text">
-                <a href="beddingset.html">
-                    <h3>рожеві сни</h3>
-                    <p>Матеріал - 100% бавовна бязь. Гіпоалергенний дихаючий наповнювач</p>
-                    ціна - 0.99 грн
-                </a>
+        </fieldset>
+        <fieldset>
+            <div class="bl fl4">
+                <div class="image">
+                    <a href="">
+                        <img src="img/beddingsetravlyk.jpg" alt="bedding set">
+                    </a>
+                </div>
+                <div class="text">
+                    <a href="beddingset.html">
+                        <h3>равлик</h3>
+                        <p>Матеріал - 100% бавовна бязь.<br> Гіпоалергенний дихаючий наповнювач</p>
+                        ціна - 1,99 грн
+                    </a>
+                </div>
             </div>
-        </div>
-        <div class="bl fl3">
-            <div class="image">
-                <a href="">
-                    <img src="img/beddingsetzorepad.jpg" alt="bedding set">
-                </a>
+        </fieldset>
+        <fieldset>
+            <div class="bl fl5">
+                <div class="image">
+                    <a href="">
+                        <img src="img/beddingsetpanda.jpg" alt="bedding set">
+                    </a>
+                </div>
+                <div class="text">
+                    <a href="beddingset.html">
+                        <h3>панда</h3>
+                        <p>Матеріал - 100% бавовна бязь.<br> Гіпоалергенний дихаючий наповнювач</p>
+                        ціна - 1,99 грн
+                    </a>
+                </div>
             </div>
-            <div class="text">
-                <a href="beddingset.html">
-                    <h3>зорепад</h3>
-                    <p>Матеріал - 100% бавовна бязь. Гіпоалергенний дихаючий наповнювач</p>
-                    ціна - 1,99 грн
-                </a>
+        </fieldset>
+        <fieldset>
+            <div class="bl fl6">
+                <div class="image">
+                    <a href="">
+                        <img src="img/beddingsetkytsunia.jpg" alt="bedding set">
+                    </a>
+                </div>
+                <div class="text">
+                    <a href="beddingset.html">
+                        <h3>кицюня</h3>
+                        <p>Матеріал - 100% бавовна бязь.<br> Гіпоалергенний дихаючий наповнювач</p>
+                        ціна - 1,99 грн
+                    </a>
+                </div>
             </div>
-        </div>
-        <div class="bl fl4">
-            <div class="image">
-                <a href="">
-                    <img src="img/beddingsetravlyk.jpg" alt="bedding set">
-                </a>
-            </div>
-            <div class="text">
-                <a href="beddingset.html">
-                    <h3>равлик</h3>
-                    <p>Матеріал - 100% бавовна бязь. Гіпоалергенний дихаючий наповнювач</p>
-                    ціна - 1,99 грн
-                </a>
-            </div>
-        </div>
-        <div class="bl fl5">
-            <div class="image">
-                <a href="">
-                    <img src="img/beddingsetpanda.jpg" alt="bedding set">
-                </a>
-            </div>
-            <div class="text">
-                <a href="beddingset.html">
-                    <h3>панда</h3>
-                    <p>Матеріал - 100% бавовна бязь. Гіпоалергенний дихаючий наповнювач</p>
-                    ціна - 1,99 грн
-                </a>
-            </div>
-        </div>
-        <div class="bl fl6">
-            <div class="image">
-                <a href="">
-                    <img src="img/beddingsetkytsunia.jpg" alt="bedding set">
-                </a>
-            </div>
-            <div class="text">
-                <a href="beddingset.html">
-                    <h3>кицюня</h3>
-                    <p>Матеріал - 100% бавовна бязь. Гіпоалергенний дихаючий наповнювач</p>
-                    ціна - 1,99 грн
-                </a>
-            </div>
-        </div>
+        </fieldset>
     </div>
     <footer id="footer">
         <div class="footer">
             <a href="contacts.html">
                 <img src="img/contact.png" alt="contacts"> контакти
             </a>
-            <a href="delivery.html">
+            <a href="delivery.html" class="delivery">
                 <img src="img/delivery.png" alt="delivery"> доставка і оплата
             </a>
             <a href="care.html">

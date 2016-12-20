@@ -225,7 +225,7 @@ body {
     float: right;
 }
 
-.main {
+.items {
     clear: both;
     display: block;
     width: 75%;
@@ -236,12 +236,59 @@ body {
     float: right;
 }
 
-.bl {
+.item {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.item:hover {
+    background-color: #c3c0b8;
+}
+
+.main {
+    clear: both;
+    display: flex;
+    width: 75%;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
     float: right;
+    margin-top: 20px;
+}
+
+.bl {
+    float: left;
     flex: 1 1 200px;
     text-align: center;
     border: 1px solid #ccc;
     border-radius: 3px;
+}
+
+.paginaction {
+    clear: both;
+    margin-top: 20px;
+}
+
+.paginaction a {
+    padding: 4px 8px;
+    border: 1px solid #a39e92;
+    color: #a39e92;
+    font-family: 'Marck Script', cursive;
+}
+
+.paginaction a:hover {
+    background-color: #a39e92;
+    border: 1px solid #a39e92;
+    color: #fff;
+    font-family: 'Marck Script', cursive;
+}
+
+.active {
+    background-color: #d7d7d7;
+    border: 1px solid #d7d7d7;
+    font-family: 'Marck Script', cursive;
 }
 
 .image img {
@@ -279,4 +326,15 @@ h3 {
     color: #000;
     font-size: 15px;
     margin: 5px;
+}
+.add-to-cart {
+    border: 1px solid #722A1B;
+    padding: 4px 14px;
+    background-color: #fff;
+    color: #722A1B;
+    text-transform: uppercase;
+    float: right;
+    margin: 5px 0;
+    font-weight: bold;
+    cursor: pointer;
 }
