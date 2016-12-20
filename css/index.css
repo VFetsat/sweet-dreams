@@ -265,6 +265,7 @@ h3 {
     margin: 5px;
 }
 #exampleSlider {
+    clear: both;
     display: flex;
     justify-content: center;
     list-style-type: none;
