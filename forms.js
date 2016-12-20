@@ -12,7 +12,7 @@ $(function() {
             },
             dataType: "json"
         }).done(function() {
-            $('form').html('<h1>Дякуюємо</h1>');
+            $('form').html('<h1>Дякуюємо!</h1>');
         });
     });
 });
