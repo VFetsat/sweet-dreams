@@ -1,17 +1,23 @@
-@media (min-width: 300px) {
+@media (min-width: 300px) and (max-width: 449px) {
  body {
         background-image: none;
+        width: 300px;
         width: 95%;
     }
     .navicon {
         display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
         align-content: center;
+        margin: 10px;
+        padding: 0;
+        align-items: center;
+        width: 290px;
+        
     }
-    .icon1 {
-        display: flex;
-        width: 100%;
+    .icon1 a img{
+        width: 250px;
         justify-content: center;
     }
     .icon1 a img {
@@ -69,7 +75,7 @@
         top: 0px;
         display: none;
         width: 50%;
-        left: 38%;
+        left: 5%;
     }
     nav ul li:hover ul {
         display: block;
@@ -88,9 +94,11 @@
         width: 100%;
     }
     .footer {
-        display: block;
-        justify-content: center;
-        
+        display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: inherit;
+    width: 300px;
     }
     .footer a {
         margin: 0;
@@ -101,29 +109,32 @@
     .delivery img {
         height: 100%;
 }
+.logostamp {
+    display: flex;
+   
+}
 .logostamp img {
-    margin-left: 10px;
-    margin-right: 20px;
+   display: none;
 }
 .logostamp p {
-    margin-left: 20px;
-    margin-right: 0;
+    clear: both;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 #slider {
-  padding-left: 0;
-  float: left;
-  width: 90%;
+  display: none;
+ 
 }
-#slider a {
-    margin: 10px;
-}
-#slider li img {
-    width: 400px;
-    height: 130px;
-}
+
+
 .main {
     clear: both;
-    flex-basis: 50%;
+    float: left;
+    flex-basis: 100%;
+    width:300px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
 }
 h2 {
     display: none;
@@ -131,5 +142,22 @@ h2 {
 .menu>li:hover>ul>li>a {
     font-size: small;
 }
-
+.main > fieldset {
+    width: 90%;
+    margin: 0;
+    padding: 0;
+}
+.image img {
+    width: 254px;
+    height: 165.5px;
+}
+#header {
+    width: 300px;
+}
+#footer {
+    width: 300px;
+}
+.main {
+    width: 300px;
+}
 }
