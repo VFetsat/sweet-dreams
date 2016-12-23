@@ -12,9 +12,8 @@ body {
 .navicon {
     margin: 22px;
     padding: 5px 10px;
-    border: 1px solid #ddd;
     border-radius: 3px;
-    max-width: 97%;
+    max-width: 92%;
 }
 
 #emblema a img {
@@ -94,8 +93,9 @@ h4:hover {
     background-color: #a39e92;
     background-repeat: no-repeat;
     border-radius: 4px;
-    width: 97%;
+    width: 92%;
     height: 41px;
+    margin: auto;
 }
 
 .menu>li {
@@ -193,9 +193,7 @@ h2:after {
 .main {
     margin: 20px;
     padding: 20px;
-    border: 1px solid #ccc;
     background: #fff;
-    border-radius: 3px;
 }
 
 .bl {
@@ -264,20 +262,6 @@ h3 {
     font-size: 15px;
     margin: 5px;
 }
-#exampleSlider {
-    clear: both;
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-}
-
-#exampleSlider li img {
-    
-    width: 800px;
-    height: 300px;
-    
-}
-
 
 .footer {
     margin-top: 60px;
@@ -324,5 +308,16 @@ h3 {
     text-transform: inherit;
     font-size: 1em;
 }
+#slider {
+    clear: both;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
 
-
+#slider li img {
+    
+    width: 800px;
+    height: 300px;
+    
+}
