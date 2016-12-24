@@ -86,8 +86,6 @@ body {
     max-width: 1340px;
     margin: auto;
 }
-
-
 .menu {
 	background-color: #a39e92;
     background-repeat: no-repeat;
@@ -244,6 +242,11 @@ font-family: 'Gloria Hallelujah', cursive;
 hr {
     width: 45%;
 }
-.btn-warning {
+.btn {
   margin: 20px;  
+   color: #ec1559;
+    font-family: 'Pacifico', cursive;
+    text-transform: inherit;
+    font-size: 1.1em;
+    background-color: #fff;
 }
