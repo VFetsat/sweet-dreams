@@ -1,6 +1,5 @@
 $(function() {
     $('#submit').click(function(e) {
-        e.preventDefault();
         $.ajax({
             url: "https://formspree.io/sweetdreams2015est@gmail.com",
             method: "POST",

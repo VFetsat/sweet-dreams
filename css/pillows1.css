@@ -229,6 +229,12 @@ font-family: 'Gloria Hallelujah', cursive;
 .pillows div p strong {
     font-size: 2em;
 }
+.pillows div strong {
+    color: #ec1559;
+    font-family: 'Pacifico', cursive;
+    text-transform: inherit;
+    font-size: 1.8em;
+}
 .pillows div h3 {
     font-family: 'Pacifico', cursive;
     text-transform: inherit;
@@ -237,4 +243,7 @@ font-family: 'Gloria Hallelujah', cursive;
 }
 hr {
     width: 45%;
+}
+.btn-warning {
+  margin: 20px;  
 }
